@@ -79,7 +79,7 @@ import { defineConfig } from "@playwright/test";
 
 export default defineConfig({
   // ... other configuration
-
+  testDir: "./tests",
   // Reporter to use
   reporter: [
     ["html"],
