@@ -41,4 +41,4 @@ jobs:
           retention-days: 30
       - name: Upload screenshots to argos-ci.com
         continue-on-error: true
-        run: npm exec argos upload ./playwright-report
+        run: npm exec argos upload ./test-results
