@@ -2,7 +2,7 @@ import { test } from "@playwright/test";
 import { argosScreenshot } from "@argos-ci/playwright";
 
 test("screenshot homepage", async ({ page }) => {
-  await page.goto("https://www.chromatic.com/start");
+  await page.goto("https://www.yahoo.com");
   await argosScreenshot(page, "homepage");
 });
 
@@ -11,7 +11,7 @@ test("screenshot homepage mobile", async ({ page }) => {
     width: 390,
     height: 844,
   });
-  await page.goto("https://www.chromatic.com/start");
+  await page.goto("https://www.yahoo.com");
   await argosScreenshot(page, "homepage");
 });
 
