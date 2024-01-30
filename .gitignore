@@ -13,3 +13,7 @@ node_modules
 /playwright/.cache/
 
 test-archives
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
